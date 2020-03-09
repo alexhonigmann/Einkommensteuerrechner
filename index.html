@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <article>
+    <form action="javascript:calc();">
+        <label for="year">Geben Sie Jahre:</label>
+        <div class="input-block">
+            <select type="number" name="number" id="year" value="" > 
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+            </select>
+        </div>
+        <div>
+                <input type="radio" name="one" id="one" value="one person"> Person 1
+        </div>
+        <div>
+                <input type="radio" name="one" id="two" value="two person"> Person 2
+        </div>
+
+        <label for="income">Geben Sie Ihre Einkommen:</label>
+        <div class="input-block">
+            <div>
+                    <input type="number" name="number" id="income-1"  value=""> 
+            </div>
+            <div>
+                    <input type="number" name="number" id="income-2" value=""> 
+            </div>
+
+        </div>
+        <input type="submit" value="Rechnen" class="Rechnen">
+        <h2 id="result"></h2>
+    </form>
+    
+</article>
+    <script src="assets/js/main.js"></script>
+</body>
+</html> 

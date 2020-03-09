@@ -1,0 +1,19 @@
+#income-2 {
+    opacity: 0;
+} 
+article{
+    margin-left: 35%;
+    margin-top: 10vh;
+    width: 30%;
+    background-color: thistle;
+    padding: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Rechnen{
+    background-color: gray;
+    color: white;
+    width: 120%;
+}
